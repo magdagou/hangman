@@ -1,0 +1,22 @@
+head{
+    font-family: "Avenir Next";
+    font-size: xx-large;
+    text-align: center;
+    color: ghostwhite;
+    background-color: lightcyan;
+}
+
+body {
+    font-family: "Avenir Next";
+    font-size: x-large;
+    text-align: center;
+    background-color: lightsteelblue;
+    color: ghostwhite;
+}
+
+button {
+    border: none;
+    margin: 5px;
+    background-color: lavenderblush;
+}
+

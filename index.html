@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <title>hangman</title>
+    <script src = "script.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<br>
+<br>
+<br>
+
+<h1>HANGMAN</h1>
+<br>
+<select id="difficulty" onchange="hangman(this.value)">
+    <option value="0">select difficulty</option>
+    <option value="1">easy</option>
+    <option value="2">medium</option>
+    <option value="3">difficult</option>
+</select>
+<br>
+<br>
+<br>
+<div id="buttons"></div>
+<br>
+<br>
+<div id="slots"></div>
+<br>
+<br>
+<div id="win"></div>
+<br>
+<div id="guess"></div>
+<br>
+<br>
+<br>
+<div id="lose"></div>
+<br>
+<br>
+<br>
+</body>
+</html>
